@@ -1,3 +1,4 @@
+ import { Link } from "react-router-dom";
 // src/Pages/SEO.jsx
 const features = [
   { icon: "🔍", title: "Keyword Research", desc: "Find high-value Hindi/English keywords your audience searches." },
@@ -40,7 +41,7 @@ const SEO = () => {
             Organic traffic growth through technical audits, bilingual content, and local SEO for Indian businesses.
           </p>
           <Link 
-            to="/Contact"
+              to={"/Contact"}
             className="inline-block px-8 py-4 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition shadow-lg hover:shadow-xl"
           >
             Free SEO Audit

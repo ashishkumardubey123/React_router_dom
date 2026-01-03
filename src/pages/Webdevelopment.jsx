@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 // src/Pages/WebDevelopment.jsx
 const features = [
   { icon: "⚡", title: "Lightning Fast Sites", desc: "Vite + React for instant builds and blazing load times." },
@@ -38,8 +39,8 @@ const WebDevelopment = () => {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
             Custom web applications that load fast, rank high, and convert visitors. From landing pages to full portfolios.
           </p>
-          <Link
-            to="/Contact"
+         <Link
+            to={"/Contact"}
             className="inline-block px-8 py-4 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition shadow-lg hover:shadow-xl"
           >
             Start Your Project
