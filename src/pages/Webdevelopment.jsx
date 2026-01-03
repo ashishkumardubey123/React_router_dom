@@ -102,7 +102,7 @@ const WebDevelopment = () => {
           </p>
           <a
             href="/contact"
-            className="inline-block px-10 py-5 bg-gradient-to-r from-amber-400 to-amber-500 text-slate-900 font-bold rounded-2xl text-lg hover:shadow-2xl transition"
+            className="inline-block px-10 py-5 bg-liner-to-r from-amber-400 to-amber-500 text-slate-900 font-bold rounded-2xl text-lg hover:shadow-2xl transition"
           >
             Get Quote
           </a>
