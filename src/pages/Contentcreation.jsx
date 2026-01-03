@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // src/Pages/ContentCreation.jsx
 const portfolioItems = [
   {
@@ -58,12 +60,12 @@ const ContentCreation = () => {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
             Bilingual (Hindi/English) Instagram reels, YouTube videos, thumbnails, and blog content for education, tech, and business.
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/Contact"
             className="inline-block px-8 py-4 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition shadow-lg hover:shadow-xl"
           >
             Order Content
-          </a>
+          </Link>
         </section>
 
         {/* Portfolio */}

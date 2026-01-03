@@ -39,12 +39,12 @@ const SEO = () => {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
             Organic traffic growth through technical audits, bilingual content, and local SEO for Indian businesses.
           </p>
-          <a
-            href="/contact"
+          <Link 
+            to="/Contact"
             className="inline-block px-8 py-4 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition shadow-lg hover:shadow-xl"
           >
             Free SEO Audit
-          </a>
+          </Link>
         </section>
 
         {/* Features */}
